@@ -1,0 +1,16 @@
+[package]
+name = "spin-o11y"
+authors = ["thangchung <thangchung@ymail.com>"]
+description = ""
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+crate-type = [ "cdylib" ]
+
+[dependencies]
+anyhow = "1"
+http = "0.2"
+spin-sdk = "3.0.1"
+
+[workspace]
